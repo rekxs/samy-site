@@ -46,12 +46,31 @@ body {
       top: 200px;
   }
 }
-
 .navbar-item {
   a {
     color: $black;
   }
   a:hover {
     color: $turquoise;
+  }
+}
+
+.notFound {
+  .hero {
+    .hero-body {
+      .container {
+        .content-wrap {
+            .image {
+
+                margin-left: calc(50% - 256px/2);
+                width: 256px;
+                height: 256px;
+              img {
+                @extend .is-rounded;
+              }
+             }
+          }
+      }
+    }
   }
 }
