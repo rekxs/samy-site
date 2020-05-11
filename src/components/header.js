@@ -41,7 +41,7 @@ const Header = () => {
               Home
             </Link>
           </div>
-          <a role="button" onClick={toggleMenu} class={`navbar-burger burger ${burgerActive}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button" onClick={toggleMenu} className={`navbar-burger burger ${burgerActive}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
