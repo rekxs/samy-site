@@ -58,6 +58,9 @@ const Header = () => {
             <div className="navbar-item" onClick={toggleMenu}>
               <Link to="/about">About</Link>
             </div>
+            <div className="navbar-item" onClick={toggleMenu}>
+              <Link to="/nothing">404 Test</Link>
+            </div>
           </div>
           <div className="navbar-end"></div>
         </div>
